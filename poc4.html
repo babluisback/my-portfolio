@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Audio,Video and Picture</title>
+    </head>
+    <body>
+        <div id="main">
+            <h1 style="text-align: center;font-weight:bold;">Implemented Image, Audio and Videotag</h1>
+            <div class="audio">
+              <audio controls>
+                <source src="assets/Audio/Chundari jaipur se.mpeg"/>
+                <source src="assets/Audio/Animal.mp4"/>
+                <source src="assets/Audio/Hind k sitara.mpeg"/>
+                <source src="assets/Audio/Jodi tor dak sune.mpeg"/>   
+              </audio>
+            </div>
+            <div class="vid">
+              <video controls wedth="250" height="200" poster="assets/images/flower.jpg" muted>
+                <source src="assets/videos/flower.webm" type="video/webm"/>
+                <source src="assets/videos/dependency.mp4" type="video/mp4"/>
+                
+              </video>
+              <a href="assets/videos/flower.webm">Download</a>
+            </div>
+            <div class="picture">
+              <picture>
+                <source srcset="assets/images/flower.jpg" wedth="300" height="200"/>
+                <source srcset="assets/images/my_image.jpeg"/>
+                <img src="assets/images/figma_logo.png" alt="flower picture">
+              </picture>
+            </div>
+        </div>
+          
+    </body>
+</html>
