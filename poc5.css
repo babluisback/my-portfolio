@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+#nav1{
+    border: solid black 2px;
+    background-color:blue;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px white ;
+  }
+     
+    
+    .clsul1 {
+        display: flex;
+        justify-content: center; 
+        gap: 500px;
+    }
+#asside1{
+    box-sizing: content-box;
+    border: solid black 2px;
+    padding: 10px 5px;
+    margin: 5px;
+    height: auto;
+    width: 400px;
+    inline-size: 250px;
+    writing-mode: horizontal-tb;
+}
+#footer{
+    border: solid black 2px;
+}
+#main{
+    box-sizing: border-box;
+    width: 700px;
+    border: solid black 2px;
+    margin: 5px;
+    
+    
+}
+#mainsection{
+    border: solid black 2px;
+    margin: 5px;
+}
+#mainfigure{
+    border: solid black 2px;
+}
+#mainfigure >img {
+    
+    box-sizing: border-box;
+    height: 300px;
+    
+    
+}
