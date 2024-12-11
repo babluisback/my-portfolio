@@ -1,0 +1,71 @@
+body {
+  border: solid black 2px;
+  height: 60cm;
+  background-color: aqua;
+  margin: 0px;
+  position: absolute;
+  top: 5px;
+  display: flex;
+  z-index: 1;
+  
+  
+}
+#main-div div {
+  border: solid black 2px;
+  margin: 10px;
+}
+/* main{
+  position: relative;
+  top: 0px;
+  z-index: 1;
+} */
+p {
+  border: solid black 1px;
+}
+.maruti {
+  background-color: yellow;
+  position: static;
+}
+.suzuki {
+  background-color: gray;
+  /* position: relative;
+  top: 20px;
+  left: 50px; */
+}
+.kia {
+  background-color: rgb(44, 243, 44);
+  /* top: 0; bottom: 0; left: 0; right: 0;
+    margin: 0;*/
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    left: 30px;
+    /* z-index: -1; */
+}
+
+.volvo {
+  /* position: fixed; */
+    top: 0;
+    width: 500px;
+    margin-top: 0;
+  /* position: fixed;
+    top: 0;
+    margin: 0;
+    left: 0px; */
+  background-color: pink;
+}
+/* #div5{
+    position: sticky;
+    top: 30px;
+    left: 30px; 
+} */
+/* dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+} */
+

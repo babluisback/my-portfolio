@@ -1,0 +1,64 @@
+body{
+    border:solid black 2px;
+    height: 60cm;
+    background-color: aqua;
+    margin: 5px;
+}
+#main-div{
+    border: solid black 2px;
+    margin: 10px;
+    
+
+}
+#main-div div{
+    border: solid black 2px;
+    margin: 10px;
+    
+}
+#saving1, #loan1, #mutualfund1 {
+    display:flex;
+    justify-content: space-around; 
+      
+}
+#savingac,#loanac, #mutualfundac{
+    background-color: lightgray;
+    
+}
+#askme{
+    display: inline;
+    border: solid black 1px;
+    background: chartreuse;
+    width:100px;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    /* z-index: -1; */
+    
+}
+#callme{
+    position: sticky;
+    top: 30px;
+    /* left: 0px; */
+    right: 20px;
+    width:100px;
+    /* height: 200px; */
+    background-color: #FFF;
+    display: inline-block; 
+    margin-left: 0px;
+    padding: 5px;
+}
+
+#loanac{
+    position: relative;
+    background: yellow;
+    top: 30px;
+    left: 30px;
+}
+/* #mutualfundac{
+    position: absolute;
+    background: lightsalmon;
+} */
+.loan,.saving,.mutualfund{
+    border: solid black 1px;
+    margin-left: 10px;
+}

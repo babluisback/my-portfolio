@@ -1,0 +1,21 @@
+#main-header > header{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+#header1{
+    height: 100px;
+    width: 100px;
+}
+#header2,#header3{
+    
+    height: 100px;
+    width: auto;
+}
+.ul{
+    display: flex;
+    padding-left: 3cm;
+}
+
+

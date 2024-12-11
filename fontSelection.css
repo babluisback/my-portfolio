@@ -1,0 +1,12 @@
+main{
+    display:inline ;
+}
+    p{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+strong{
+    display:inline;
+}

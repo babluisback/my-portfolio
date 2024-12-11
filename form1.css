@@ -1,0 +1,68 @@
+body{
+    border: solid black 2px;
+    /* padding: 5px; */
+    background-color: aliceblue;
+    margin: 5px;
+}
+main {
+    font-family: "Slabo 13px", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+  }
+  /* #form{
+    display:block;
+    border: solid black 1px;
+    padding: 10px;
+    
+  } */
+  #headimage{
+    display: block;
+    border: solid black 1px;
+    width: 1310px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+  }
+  input,label,select{
+    width:400px ;
+    padding: 10px;
+    border-radius: 10px;    
+  }
+  #fieldset{
+    border:solid black 1px;
+    /* width: 400px; */
+    /* margin: 50px 5px 5px 5px; */
+    padding: 5px;
+    background-color: rgb(135, 197, 252);
+    
+  }
+#aside-p1{
+    border: solid black 1px;
+    height: 911px;
+    width: 400px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+#aside-p2{
+    border: solid black 1px;
+    height: 911px;
+    width: 400px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    
+}
+#p2-h6{
+    display: inline-block;
+}
+/* #aside-div2{
+    border: solid black 1px;
+    display: inline;
+}
+  */
+#footer{
+    display: inline-block;
+}

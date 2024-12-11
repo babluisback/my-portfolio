@@ -3,7 +3,7 @@ body{
 }
 #nav1{
     border: solid black 2px;
-    background-color:blue;
+    background-color: cornflowerblue;
     padding: 10px 10px;
     box-shadow: 10px 10px 10px white ;
   }
@@ -18,16 +18,34 @@ body{
     box-sizing: content-box;
     border: solid black 2px;
     padding: 10px 5px;
+    padding-right: 30px;
     margin: 5px;
+    margin-top: 20px;
     height: auto;
     width: 400px;
     inline-size: 250px;
     writing-mode: horizontal-tb;
 }
 #footer{
+    display: flex;
     border: solid black 2px;
+    background-color: cornflowerblue;
+    
+}
+#footer  p {
+    border: solid black 2px;
+    margin: 5px 50px 5px 50px;
+    padding: 5px;
+    background-color: lightgray;
+}
+#footer > a{
+    border: solid black 2px;
+    margin: 5px 40px 5px 40px;
+    padding: 5px;
+    background-color: lightgray;
 }
 #main{
+    display: flex;
     box-sizing: border-box;
     width: 700px;
     border: solid black 2px;
@@ -36,7 +54,7 @@ body{
     
 }
 #mainsection{
-    border: solid black 2px;
+    border: solid blacock 2px;
     margin: 5px;
 }
 #mainfigure{
